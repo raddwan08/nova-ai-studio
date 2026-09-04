@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>NOVA AI STUDIO</title>
+</head>
+
+<body>
+
+<h1>🌟 NOVA AI STUDIO</h1>
+
+<a href="/create">
+<button>
+🎬 Create Video
+</button>
+</a>
+
+
+<h2>Projects</h2>
+
+{% for p in projects %}
+
+<p>
+{{p.title}} -
+{{p.status}}
+</p>
+
+{% endfor %}
+
+</body>
+</html>
